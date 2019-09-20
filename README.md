@@ -1,0 +1,2 @@
+# Tp-Scanner-L-xico
+Dado el automata reconocedor de token del lenguaje micro, programar la función: TOKEN Scanner(void) donde TOKEN es un enum:  typedef enum { INICIO, FIN, LEER, ESCRIBIR, ID, CONSTANTE, PARENIZQUIERDO, PARENDERECHO, PUNTOYCOMA, COMA, ASIGNACION, SUMA, RESTA, FDT } TOKEN; La función lee de un archivo una secuencia de caracteres. PARA LA TABLA DE TRANSICION UTILICE L PARA LOS CARACTERES Y D PARA LOS DIGITOS, PUEDE USAR LAS FUNCIONES ISALPHA E ISDIGIT, ISSPACE
